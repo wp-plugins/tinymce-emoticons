@@ -1,5 +1,5 @@
 === TinyMCE Emoticons ===
-Contributors: Nazmur
+Contributors: nazmur.r
 Tags: emoticon, emoticons, tinymce, smiley
 Requires at least: 3.0
 Tested up to: 3.8.1
