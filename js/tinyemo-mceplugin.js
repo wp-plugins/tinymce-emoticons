@@ -12,6 +12,7 @@
            title : 'TinyMCE Emoticons',
            //cmd : 'TinyEmo',
            image : url + '/button.png',
+classes: 'widget btn btnTinyEmo',
            onclick : function() {
 
            }
@@ -32,3 +33,26 @@
    // Register plugin
    tinymce.PluginManager.add('tinyemo', tinymce.plugins.TinyEmo);
  })();
+
+/*
+( function() {
+    tinymce.PluginManager.add( 'tinyemo', function( editor, url ) {
+
+        // Add a button that opens a window
+        editor.addButton( 'btnTinyEmo', {
+
+            Title: 'FB Test Button',
+          tooltip: 'TinyMCE Emoticons',
+icon: false,
+classes: 'widget btn btnTinyEmo',
+  image : url + '/button.png',
+            onclick: function() {
+
+            }
+
+        } );
+
+    } );
+
+} )();
+*/

@@ -182,14 +182,16 @@ $('#wpcontent #poststuff #post-body').append(popup3);
 
 $('html').click(function(e) {
     var clicked = $(e.target).attr('class');
-     //console.log(clicked);
-   if(clicked != 'mceIcon' && clicked != 'mCSB_dragger_bar'){
+//var clicked2 = $(e.target).parent().attr('class');
+     console.log(clicked);
+//console.log(clicked2);
+   if((clicked != 'mce-ico mce-i-none') && (clicked != 'mceIcon') && clicked != 'mCSB_dragger_bar'){
    $('.emoticons-popup').hide();
       i=1;
    }
       });
 
-$(document).on("click", ".mce_btnTinyEmo img.mceIcon",function(){ 
+$(document).on("click", ".mce_btnTinyEmo img.mceIcon, .mce-btnTinyEmo button",function(){ 
 //console.log(i);   
 if(i==0){
    $('.emoticons-popup').hide();
@@ -214,7 +216,7 @@ $("#tinyemo-options #option-value").attr('value',opt_value);
         var scroll_visible = false;
         $(window).load(function(){
 				/* custom scrollbar fn call */
-                   $(".mce_btnTinyEmo").live("click",function(){
+                   $(".mce_btnTinyEmo, .mce-btnTinyEmo").live("click",function(){
                 if(scroll_visible != true){
                 $(".emoticons-popup").mCustomScrollbar({
 					scrollInertia:150
