@@ -2,8 +2,8 @@
 Contributors: nazmur.r
 Tags: emoticon, emoticons, tinymce, smiley
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.2
+Tested up to: 4.1.1
+Stable tag: 1.3
 
 TinyMCE Emoticons plugin helps to add emoticons in posts and pages easily.
 
@@ -46,6 +46,11 @@ Please leave a comment in the plugin homepage about your query or opinion [http:
 2. TinyMCE popup in page add screen
 
 == Changelog ==
+
+= 1.3 =
+
+* Emoticons Popup overlapping issue fixed.
+* Version compatibility update.
 
 = 1.2 =
 

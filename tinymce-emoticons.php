@@ -1,7 +1,7 @@
 <?php
  /*
  Plugin Name: TinyMCE Emoticons
- Version: 1.2
+ Version: 1.3
  Plugin URI: http://nazmurrahman.com/tinymce-emoticons-wordpress-plugin/
  Author: Nazmur Rahman
  Author URI: http://nazmurrahman.com/

@@ -45,7 +45,7 @@ var popup_top = post_area_top - 125;
 //if(notice_height != null) popup_top += notice_height + 25;
 
 /* Emoticons Set 1 Popup - Basic */
-var popup = "<div class='emoticons-popup' style='width: 286px; height: 143px; padding: 5px; background: #ddd; background: rgba(230,230,230,.9); -moz-box-shadow: 0 0 10px #999; -webkit-box-shadow: 0 0 10px #999; box-shadow: 0 0 10px #999; position: absolute; left: 332px; top:"+popup_top+"px; z-index: 999; display: none; overflow: auto;'>";
+var popup = "<div class='emoticons-popup' style='width: 286px; height: 143px; padding: 5px; background: #ddd; background: rgba(230,230,230,.9); -moz-box-shadow: 0 0 10px #999; -webkit-box-shadow: 0 0 10px #999; box-shadow: 0 0 10px #999; position: absolute; left: 332px; top:"+popup_top+"px; z-index: 99999999; display: none; overflow: auto;'>";
 popup += "<a href='#' title='adore' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-1/adore.png\",\"adore\");'><img src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-1/adore.png' /></a>";
 popup += "<a href='#' title='angry' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-1/angry.png\",\"angry\");'><img src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-1/angry.png' /></a>";
 popup += "<a href='#' title='baloon' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-1/baloon.png\",\"baloon\");'><img src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-1/baloon.png' /></a>";
@@ -96,7 +96,7 @@ popup += "<a href='#' title='wondering' onclick='insert_image(tinyEmoSettings.ti
 popup += "</div>";
 
 /* Emoticons Set 2 Popup - Animated */
-var popup2 = "<div class='emoticons-popup' style='width: 306px; height: 143px; padding: 5px; background: #ddd; background: rgba(230,230,230,.9); -moz-box-shadow: 0 0 10px #999; -webkit-box-shadow: 0 0 10px #999; box-shadow: 0 0 10px #999; position: absolute; left: 332px; top:"+popup_top+"px; z-index: 999; display: none; overflow: auto;'>";
+var popup2 = "<div class='emoticons-popup' style='width: 306px; height: 143px; padding: 5px; background: #ddd; background: rgba(230,230,230,.9); -moz-box-shadow: 0 0 10px #999; -webkit-box-shadow: 0 0 10px #999; box-shadow: 0 0 10px #999; position: absolute; left: 332px; top:"+popup_top+"px; z-index: 99999999; display: none; overflow: auto;'>";
 popup2 += "<a href='#' title='applause' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-2/applause.gif\",\"applause\");'><img style='margin-right: 10px; margin-bottom: 5px;' src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-2/applause.gif' /></a>";
 popup2 += "<a href='#' title='cheers' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-2/cheers.gif\",\"cheers\");'><img style='margin-right: 10px; margin-bottom: 5px' src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-2/cheers.gif' /></a>";
 popup2 += "<a href='#' title='clap' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-2/clap.gif\",\"clap\");'><img style='margin-right: 10px; margin-bottom: 5px' src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-2/clap.gif' /></a>";
@@ -133,7 +133,7 @@ popup2 += "<a href='#' title='victory' onclick='insert_image(tinyEmoSettings.tin
 popup2 += "</div>";
 
 /* Emoticons Set 3 Popup - Outlined */
-var popup3 = "<div class='emoticons-popup' style='width: 272px; height: 143px; padding: 5px; background: #ddd; background: rgba(230,230,230,.9); -moz-box-shadow: 0 0 10px #999; -webkit-box-shadow: 0 0 10px #999; box-shadow: 0 0 10px #999; position: absolute; left: 343px; top:"+popup_top+"px; z-index: 999; display: none; overflow: auto;'>";
+var popup3 = "<div class='emoticons-popup' style='width: 272px; height: 143px; padding: 5px; background: #ddd; background: rgba(230,230,230,.9); -moz-box-shadow: 0 0 10px #999; -webkit-box-shadow: 0 0 10px #999; box-shadow: 0 0 10px #999; position: absolute; left: 343px; top:"+popup_top+"px; z-index: 99999999; display: none; overflow: auto;'>";
 popup3 += "<a href='#' title='angel' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-3/angel.png\",\"angel\");'><img style='margin-right: 10px; margin-bottom: 5px;' src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-3/angel.png' /></a>";
 popup3 += "<a href='#' title='angry' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-3/angry.png\",\"angry\");'><img style='margin-right: 10px; margin-bottom: 5px;' src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-3/angry.png' /></a>";
 popup3 += "<a href='#' title='angry sick' onclick='insert_image(tinyEmoSettings.tinyEmo_url+\"images/emoticons-set-3/angry-sick.png\",\"angry-sick\");'><img style='margin-right: 10px; margin-bottom: 5px;' src='"+tinyEmoSettings.tinyEmo_url+"images/emoticons-set-3/angry-sick.png' /></a>";
